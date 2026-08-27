@@ -1,0 +1,16 @@
+{
+  "name": "daily-2026-08-27-bitepath",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node test.mjs",
+    "qa": "playwright test qa.spec.js --reporter=line",
+    "validate:wav": "node validate-wav.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "vite": "^7.1.3"
+  }
+}
